@@ -1,7 +1,7 @@
 import os
 
 
-class Config:
+class BaseConfig:
     # 数据库文件路径
     DB_PATH = None
 
@@ -37,3 +37,5 @@ class Config:
 
     # 最大尝试次数
     MAX_RETRIES = 5
+
+base_config = BaseConfig()
